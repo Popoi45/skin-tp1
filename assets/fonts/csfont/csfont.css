@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'counter-strikebold';
+    src: url('cs_bold-webfont.woff2') format('woff2'), url('cs_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'counter-strikebold_italic';
+    src: url('cs_bold_italic-webfont.woff2') format('woff2'), url('cs_bold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'counter-strikeextruded';
+    src: url('cs_extruded-webfont.woff2') format('woff2'), url('cs_extruded-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'counter-strikeitalic';
+    src: url('cs_italic-webfont.woff2') format('woff2'), url('cs_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

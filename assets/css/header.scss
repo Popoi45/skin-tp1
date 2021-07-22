@@ -1,0 +1,89 @@
+    .header-block {
+        background-color: #2C293B;
+        display: flex;
+        padding: 15px;
+        align-items: center;
+        justify-content: space-between;
+        &__item {
+            &-nav {
+                display: flex;
+                list-style: none;
+                font-family: 'Poppins', sans-serif;
+                &__item {
+                    margin: 0 10px;
+                }
+                &__item a {
+                    text-decoration: none;
+                }
+                &__item a:visited {
+                    color: white;
+                }
+                &__item a:hover {
+                    color: #AD8FFF;
+                    transition: .3s;
+                }
+            }
+            &-select {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    
+    .header-nav {
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+        margin: 0 50px;
+    }
+    
+    .sing-in {
+        background: rgb(127, 79, 255);
+        background: linear-gradient(118deg, rgba(127, 79, 255, 1) 0%, rgba(224, 57, 135, 1) 100%);
+        border: none;
+        width: 250px;
+        padding: 10px 2px;
+        border-radius: 34px;
+        text-transform: uppercase;
+        &:hover {
+            transition: .2s;
+            background: rgb(224, 57, 135);
+            background: linear-gradient(118deg, rgba(224, 57, 135, 1) 0%, rgba(127, 79, 255, 1) 100%);
+        }
+    }
+    
+    .sing-in p {
+        margin: 0;
+        padding: 0;
+        display: inline;
+    }
+    
+    .select-item {
+        margin-left: 15px;
+        &__txt {
+            color: #AD8FFF;
+            margin: 5px 0;
+        }
+    }
+    
+    select {
+        color: white;
+        background: #3F345A;
+        border-radius: 6px;
+    }
+    
+    .cart {
+        color: #AD8FFF;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .acc-prof {
+        background-color: transparent;
+        border: none;
+        margin: 0 15px;
+        &:hover {
+            color: #AD8FFF;
+            transition: .3s;
+        }
+    }
